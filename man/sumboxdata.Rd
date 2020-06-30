@@ -4,19 +4,21 @@
 \name{sumboxdata}
 \alias{sumboxdata}
 \title{Box Plot Statistics for "Summary" Tab}
-\format{A data frame with 180 rows and 10 variables
+\format{
+A data frame with 180 rows and 10 variables
 \describe{
   \item{Demand}{log, logit, aids, ces, linear}
   \item{Model}{cournot:log, cournot: linear, bertrand:aids, bertrand:logit, bertrand:ces, auction:logit}
-  \item{Outcome}{post-Merger indice of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
-  \item{Supply}{betrand, cournot, auction}
+  \item{Outcome}{post-Merger index of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
+  \item{Supply}{bertrand, cournot, auction}
   \item{high_wisk}{maximum}
   \item{low_wisk}{minimum}
   \item{pct25}{25th percentile boxplot line}
   \item{pct50}{50th percentile boxplot line}
   \item{pct75}{75th percentile boxplot line}
   \item{shareOutThresh}{outside share threshold in percent (20--70) }
-}}
+}
+}
 \usage{
 sumboxdata
 }

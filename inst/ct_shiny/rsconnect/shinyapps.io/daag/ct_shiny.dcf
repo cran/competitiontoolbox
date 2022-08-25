@@ -5,8 +5,9 @@ account: daag
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1153580
-bundleId: 4130334
+bundleId: 4624601
 url: https://daag.shinyapps.io/ct_shiny/
-when: 1611333426.38572
+when: 1621608196.14694
+lastSyncTime: 1621608196.14694
 asMultiple: FALSE
 asStatic: FALSE

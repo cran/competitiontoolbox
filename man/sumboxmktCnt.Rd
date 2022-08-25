@@ -7,7 +7,7 @@
 \format{
 A data frame with 30 rows and 3 variables
 \describe{
-  \item{Outcome}{post-Merger indice of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
+  \item{Outcome}{post-Merger indice of interest (Industry Price Change (percent), Merging Party Price Change (percent), Consumer Harm (dollars), Producer Benefit (dollars), Net Harm (dollars)}
   \item{Cnt}{number of horizontal merger simulations}
   \item{shareOutThresh}{outside share threshold in percent (20--70)}
 }
@@ -20,6 +20,6 @@ A dataset containing the information necessary to calculate the number of merger
 simulations used to generate the plots for the Summary tab of Numerical Simulations for Horizontal Mergers.
 }
 \references{
-\href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 }
 \keyword{datasets}

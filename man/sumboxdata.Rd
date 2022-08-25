@@ -9,7 +9,7 @@ A data frame with 210 rows and 10 variables
 \describe{
   \item{Demand}{log, logit, aids, ces, linear}
   \item{Model}{cournot:log, cournot: linear, bertrand:aids, bertrand:logit, bertrand:ces, auction:logit}
-  \item{Outcome}{post-Merger index of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
+  \item{Outcome}{post-Merger index of interest (Industry Price Change (percent), Merging Party Price Change (percent), Consumer Harm (dollars), Producer Benefit (dollars), Net Harm (dollars)}
   \item{Supply}{bertrand, cournot, auction}
   \item{high_wisk}{maximum}
   \item{low_wisk}{minimum}
@@ -28,6 +28,6 @@ and percent of outside share for horizontal mergers so as to examine the
 distribution of outcomes.
 }
 \references{
-\href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 }
 \keyword{datasets}

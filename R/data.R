@@ -18,9 +18,8 @@
 #'   \item{pct50}{50th percentile boxplot line}
 #'   \item{pct75}{75th percentile boxplot line}
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "indicboxdata"
-
 
 #' Number of Monte Carlo Simulations Performed in "Indices" Tab
 #'
@@ -34,7 +33,7 @@
 #'   \item{Cnt}{number of horizontal merger simulations (25,890 -- 184,254)}
 #'   \item{shareOutThresh}{outside share threshold in percent (20--70)}
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "indicboxmktCnt"
 
 
@@ -48,7 +47,7 @@
 #' \describe{
 #'   \item{Demand}{log, logit, aids, ces, linear}
 #'   \item{Model}{cournot:log, cournot: linear, bertrand:aids, bertrand:logit, bertrand:ces, auction:logit}
-#'   \item{Outcome}{post-Merger index of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
+#'   \item{Outcome}{post-Merger index of interest (Industry Price Change (percent), Merging Party Price Change (percent), Consumer Harm (dollars), Producer Benefit (dollars), Net Harm (dollars)}
 #'   \item{Supply}{bertrand, cournot, auction}
 #'   \item{high_wisk}{maximum}
 #'   \item{low_wisk}{minimum}
@@ -57,7 +56,7 @@
 #'   \item{pct75}{75th percentile boxplot line}
 #'   \item{shareOutThresh}{outside share threshold in percent (20--70) }
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "sumboxdata"
 
 
@@ -68,11 +67,11 @@
 #'
 #' @format A data frame with 30 rows and 3 variables
 #' \describe{
-#'   \item{Outcome}{post-Merger indice of interest (Industry Price Change (\%), Merging Party Price Change (\%), Consumer Harm (\$), Producer Benefit (\$), Net Harm (\$)}
+#'   \item{Outcome}{post-Merger indice of interest (Industry Price Change (percent), Merging Party Price Change (percent), Consumer Harm (dollars), Producer Benefit (dollars), Net Harm (dollars)}
 #'   \item{Cnt}{number of horizontal merger simulations}
 #'   \item{shareOutThresh}{outside share threshold in percent (20--70)}
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "sumboxmktCnt"
 
 
@@ -95,7 +94,7 @@
 #'   \item{pct75}{75th percentile boxplot line}
 #'   \item{tariffThresh}{tariff threshold in percent (10--30)}
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "sumboxdata_trade"
 
 
@@ -110,5 +109,5 @@
 #'   \item{Cnt}{number of tariffs simulated}
 #'   \item{tariffThresh}{tariff threshold in percent (10--30)}
 #' }
-#' @references \href{https://www.researchgate.net/publication/330564982_Using_measures_of_competitive_harm_for_optimal_screening_of_horizontal_mergers}{Taragin and Loudermilk 2019}
+#' @references Taragin, C., & Loudermilk, M. (2019). Using measures of competitive harm for optimal screening of horizontal mergers. mimeo.\doi{10.13140/RG.2.2.30872.85760/1}.
 "sumboxmktCnt_trade"
